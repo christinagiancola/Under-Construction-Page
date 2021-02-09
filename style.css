@@ -1,0 +1,38 @@
+:root {
+	--light-orange: #f5b111;
+	--dark-orange: #ed9909;
+	--teal: #1c4b4d;
+	--beige: #e7d3a4;
+	--gray: #96a2ae;
+}
+
+body {
+	font-family: 'Aleo', serif;
+	background-color: var(--light-orange);
+	background-image: url(./images/cicada-pattern.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-transform: lowercase;
+}
+
+.container {
+	background: white;
+	border: 5px solid var(--teal);
+	border-radius: 8px;
+	width: 70vw;
+	height: 70vh;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+.cicada-img {
+	height: 150px;
+	width: auto;
+}
