@@ -9,7 +9,7 @@
 body {
 	font-family: 'Aleo', serif;
 	background-color: var(--light-orange);
-	background-image: url(./images/cicada-pattern.png);
+	background-image: url(./images/cicada_pattern.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
