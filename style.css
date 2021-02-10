@@ -106,3 +106,61 @@ a {
 .instagram {
 	margin-right: 65px;
 }
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+		text-shadow: none;
+		margin-top: -5px;
+	}
+
+	.container {
+		width: 400px;
+		min-width: auto;
+		height: auto;
+		min-height: auto;
+	}
+
+	.content-block {
+		width: 90%;
+		margin-top: none;
+	}
+
+	.icon {
+		display: none;
+	}
+
+	.header-text {
+		height: 80px;
+		font-size: 24px;
+	}
+
+	.main-text {
+		font-size: 16px;
+	}
+
+	.social-text {
+		font-size: 16px;
+	}
+
+	.social-links {
+		justify-content: space-around;
+	}
+
+	.social-link {
+		padding-top: 0px;
+	}
+
+	.twitter {
+		margin-left: 0px;
+	}
+
+	.instagram {
+		margin-right: 0px;
+	}
+
+	.social-text {
+		font-size: 14px;
+		letter-spacing: 0.075em;
+	}
+}
