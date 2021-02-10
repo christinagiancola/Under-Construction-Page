@@ -39,7 +39,7 @@ a {
 	border-radius: 8px;
 	width: 55vw;
 	min-width: 599px;
-	height: 55vh;
+	height: auto;
 	min-height: 400px;
 	margin-top: 15vh;
 	display: flex;
@@ -55,6 +55,7 @@ a {
 .icon {
 	width: 20px;
 	height: 20px;
+	padding: 5px;
 }
 
 .cicada-img {
@@ -81,12 +82,13 @@ a {
 
 .social-text {
 	color: var(--teal);
-	padding: 5px;
+	margin-bottom: 10px;
 }
 
 .social-links {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 5px;
 }
 
 .social-link {
